@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    SIGOOD | Accueil
+{% endblock %}
+
+{% block  javascripts %}
+    {{ parent() }}
+    <script>
+        $(".menu").addClass('active');
+    </script>
+{% endblock %}
